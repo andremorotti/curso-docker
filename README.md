@@ -11,7 +11,7 @@ Este projeto consiste em um backend desenvolvido com FastAPI e um frontend utili
 ### 1. Clonar o Repositório
 ```sh
 git clone https://github.com/andremorotti/curso-docker.git
-cd seu_repositorio
+cd curso-docker/
 ```
 
 ### 2. Configurar o Ambiente Virtual
