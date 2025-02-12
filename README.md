@@ -5,7 +5,6 @@ Este projeto consiste em um backend desenvolvido com FastAPI e um frontend utili
 
 ---
 
-
 ## Configuração e Execução
 
 ### 1. Clonar o Repositório
@@ -26,24 +25,6 @@ source .venv/bin/activate  # Linux/macOS
 cd backend/
 pip install -r requirements.txt
 ```
-
-### 4. Rodar o Backend
-```sh
-uvicorn main:app --reload
-```
-A API ficará disponível em:
-[http://localhost:8000/api01/cards](http://localhost:8000/api01/cards)
-
-### 5. Rodar o Frontend
-Abrir um novo terminal e executar:
-```sh
-cd frontend/
-npm install
-npm start
-```
-O frontend ficará disponível em:
-[http://localhost:3000](http://localhost:3000)
-
 ---
 
 ## Configuração com Docker
@@ -59,12 +40,15 @@ cd backend/
 docker build . -t backend
 docker run --name backend --rm --network rede_docker -p 8000:8000 backend
 ```
+A API ficará disponível em:
+[http://localhost:8000/api01/cards](http://localhost:8000/api01/cards)
 
 ```sh
 cd frontend/
 docker build . -t frontend
 docker run --name frontend --rm --network rede_docker -p 3000:3000 frontend
 ```
-
+O frontend ficará disponível em:
+[http://localhost:3000](http://localhost:3000)
 ---
 
