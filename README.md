@@ -49,6 +49,7 @@ docker run --name frontend --rm --network rede_docker -p 3000:3000 frontend
 ```
 A API ficará disponível em:
 [http://localhost:8000/api01/cards](http://localhost:8000/api01/cards)
+---
 O frontend ficará disponível em:
 [http://localhost:3000](http://localhost:3000)
 ---
